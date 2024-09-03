@@ -9,6 +9,8 @@ import Entertainment from "./pages/Entertainment";
 import Business from "./pages/Business";
 import Profile from "./pages/Profile";
 import MaybeShowNavbar from "./MaybeShowNavbar/MaybeShowNavbar";
+import SignUp from "./pages/SignUp";
+import SignIn from "./pages/SignIn";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/business" element={<Business />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/entertainment" element={<Entertainment />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/sign-in" element={<SignIn />} />
       </Routes>
     </BrowserRouter>
   );
