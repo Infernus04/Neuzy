@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
+
+import withMT from "@material-tailwind/react/utils/withMT";
+
+const config = {
+  content: ["./src/**/*.{html,js,css}"],
   theme: {
     fontFamily: {
       sans: [
@@ -15,3 +18,5 @@ module.exports = {
   plugins: [],
 }
 
+
+export default withMT(config)

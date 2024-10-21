@@ -1,9 +1,5 @@
-import React from 'react'
-
-const Home = () => {
-  return (
-    <div></div>
-  )
+import { Button } from "@material-tailwind/react";
+ 
+export default function Home() {
+  return <Button>Button</Button>;
 }
-
-export default Home

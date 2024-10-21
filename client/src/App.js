@@ -11,7 +11,6 @@ import Profile from "./pages/Profile";
 import MaybeShowNavbar from "./MaybeShowNavbar/MaybeShowNavbar";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
-
 function App() {
   return (
     <BrowserRouter>
